@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <style>
+        /* CSS Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #282767;
+            color: #ede6e6;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        nav {
+            background-color: #e1a9a9;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        nav ul li {
+            display: inline-block;
+            margin: 0 10px;
+        }
+        
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 5px;
+        }
+        
+        section {
+            background-color: #4b164b71;
+            padding: 20px;
+            text-align: center;
+        }
+       
+    /* CSS Styles */
+    /* ... (Previous CSS styles) */
+    
+    section#contact {
+        background-color: #742274;
+        padding: 20px;
+    }
+    
+    section#contact h2 {
+        color: #faf2f2;
+    }
+    
+    section#contact p {
+        color: #adad4e;
+        margin-bottom: 20px;
+    }
+    
+    .contact-info {
+        margin-bottom: 40px;
+    }
+    
+    .contact-info h3 {
+        color: #070a0e;
+        margin-bottom: 10px;
+    }
+    
+    .contact-info ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .contact-info li {
+        margin-bottom: 5px;
+    }
+    
+    .contact-info li strong {
+        font-weight: bold;
+    }
+    
+    .contact-form {
+        text-align: center;
+    }
+    
+    .contact-form h3 {
+        color: #0e0313;
+        margin-bottom: 10px;
+    }
+    
+    .contact-form form {
+        display: inline-block;
+        text-align: left;
+    }
+    
+    .contact-form input,
+    .contact-form textarea {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-family: Arial, sans-serif;
+    }
+    
+    .contact-form textarea {
+        resize: vertical;
+    }
+    
+    .contact-form button[type="submit"] {
+        padding: 10px 20px;
+        background-color: #333;
+        color: #d9cfcf;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    .contact-form button[type="submit"]:hover {
+        background-color: #555;
+    }
+
+
+        footer {
+            background-color: #350f56;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="https://github.com/Chayan5532">github</a></li>
+        </ul>
+    </nav>
+    
+    <section id="home">
+        <h2>Welcome to My Portfolio</h2>
+        <img  src="img/profile.jpeg">
+        <p>my name is chayan chauhan.i am web dewloper & software dewloper
+            ,i am frontend dewloper. </p>
+    </section>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>hello,
+            i am web developer i can help you to make websites and all social media trends easily in your websites.
+            <br>do reach out to for making your presence in this social media world.
+        </p>
+    </section>
+    <section id="education">
+        <h2>education</h2>
+        <p>march 2019<br>
+        secondary education from rl pandya </br>
+        78.00%
+        
+        </p>
+        <p>may 2021<br>
+             higher secondary education from r1 pandya</br>
+             80.00%
+            
+            </p>
+            <p>june 2022-25
+                <br>
+                b.tech it engineering from silver oak university
+                
+                </p>
+
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>this is my fist website project portfolio website, this page develop by me <br>
+        i have skills in html, c++ , java , javascript</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>You can reach me through the following contact details.</p>
+        
+        <div class="contact-info">
+            <h3>Contact Information</h3>
+            <ul>
+                <li><strong>Email:</strong> chayanchauhan1@gmail.com</li>
+                <li><strong>Phone:</strong> 9408434071</li>
+                <li><strong>Address:</strong> 123 Street new Ranip, Ahemdabad, india</li>
+            </ul>
+        </div>
+        
+        <div class="contact-form">
+            <h3>Send me a message</h3>
+            <form>
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+    
+    
+    <footer>
+        <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
